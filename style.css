@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", serif;
 }
 header {
   position: sticky;
@@ -123,9 +126,9 @@ span .course {
   box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
 }
 .hero-form:hover,
-.card-1:hover{
-    transform: scale(1.05);
-    box-shadow:  2px 2px 5px #945FF6, -2px -2px 5px #2F80ED;;
+.card-1:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px #945ff6, -2px -2px 5px #2f80ed;
 }
 .head h2 {
   color: #2b2f34;
@@ -202,35 +205,34 @@ input {
 /* ---------------------------- */
 
 /* course section update */
-.card-1{
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 9px;
-    border: 2px solid #2F80ED;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    margin: 10px;
-    padding: 15px;  
+.card-1 {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 9px;
+  border: 2px solid #2f80ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
 }
-.btn-1{
-    border-color: #2F80ED;
-    width: 200px;
-    height: 50px;
-    border-radius: 15px;
+.btn-1 {
+  border-color: #2f80ed;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
 }
-.btn-2{
-    border-color: #2F80ED;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #2F80ED;
+.btn-2 {
+  border-color: #2f80ed;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #2f80ed;
 }
 /* course section update last  */
 /* ------------------------- */
-
 
 /* hiring-section  */
 .hiring-section {
@@ -290,13 +292,13 @@ input {
   animation: scrollText 10s infinite linear;
 }
 @keyframes scrollText {
-    from {
-      transform: translateX(-50%);
-    }
-    to {
-      transform: translateX(50%);
-    }
+  from {
+    transform: translateX(-50%);
   }
+  to {
+    transform: translateX(50%);
+  }
+}
 .hiring-img div {
   display: flex;
   justify-content: center;
@@ -370,17 +372,18 @@ input {
   padding: 24px;
   height: 100%;
   width: 350px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
-.card-div:hover{
-    transform: scale(1.15);
+.card-div:hover {
+  transform: scale(1.15);
 }
 .card-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.discription,.board-of-Cricket {
+.discription,
+.board-of-Cricket {
   margin-top: 10px;
   color: #676767;
   font-size: 16px;
@@ -395,13 +398,13 @@ input {
 }
 /* --------------------------- */
 
-
 /* Already responsive Using bootstrap */
-@media screen and (max-width:768px){
-    .courses{
-      padding: 10px;
-    }
-  .btn-1,.btn-2{
+@media screen and (max-width: 768px) {
+  .courses {
+    padding: 10px;
+  }
+  .btn-1,
+  .btn-2 {
     max-width: 100%;
   }
 }
