@@ -1,12 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AccioJob Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/Final Logo.png" />
+            <img src="assets/AccioJob.png" />
+            <img src="assets/Line 8.png" />
+            <img src="assets/NSDC_Logo_in_clear_background 1.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Courses<img src="assets/Arrow.png"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AccioJob Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Scholarship Test</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >More<img src="assets/Arrow.png"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-outline-primary"><i>Login</i></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- anouncement section -->
+    <div class="anouncement">
+      <div><i>Next batch starts in ⌛ 22 Days, Hurry! ️</i></div>
+    </div>
+
+    <!-- Main section  -->
+    <main>
+      <!-- hero-section -->
+      <section class="hero-section">
+        <div class="row">
+          <div class="hero-left col-md-8">
+            <div class="hero-text">
+              <h1>Launch your career with our</h1>
+              <span
+                >Full Stack Developer<span class="course"> Courses</span></span
+              >
+              <p>
+                Curriculum designed and taught by Alumni from IIT’s &
+                <br />Leading Tech Companies.
+              </p>
+            </div>
+            <div class="hero-badges">
+              <div class="badges">
+                <img src="assets/Frame.png" />
+                <div class="badge-content">
+                  <p class="p1 m-0">41 Lakhs</p>
+                  <p class="p2">Highest Salary</p>
+                </div>
+              </div>
+              <div class="badges">
+                <img src="assets/Group 48097592.png" />
+                <div class="badge-content">
+                  <p class="p1 m-0">300+</p>
+                  <p class="p2">Partner Companies</p>
+                </div>
+              </div>
+              <div class="badges">
+                <img src="assets/Frame (1).png" />
+                <div class="badge-content">
+                  <p class="p1 m-0">100%</p>
+                  <p class="p2">Job Guarentee</p>
+                </div>
+              </div>
+              <div class="badges">
+                <img src="assets/Group 48097591.png" />
+                <div class="badge-content">
+                  <p class="p1 m-0">8.3 LPA</p>
+                  <p class="p2">Average Salary</p>
+                </div>
+              </div>
+            </div>
+            <div class="man-made">
+              <p>Made with 💙 by an AccioJob Student</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="hero-form">
+              <div class="head">
+                <h2>Start Attending Live Classes for Free!</h2>
+                <p>
+                  Live lectures & Assignments curated by Top Tech Proffesionals
+                </p>
+              </div>
+              <div class="name">
+                <img src="assets/name.png" />
+                <input type="text" placeholder="Samvrant Samantaray" />
+              </div>
+              <div class="phone">
+                <img src="assets/phone.png" />
+                <input type="text" placeholder="Phone number" />
+              </div>
+
+              <div class="apply">
+                <button type="submit">Apply Now For Free ></button>
+              </div>
+              <div class="terms">
+                <p class="para">By clicking ‘Apply now’, you agree to our</p>
+                <span class="terms"> Terms & Conditions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- course-section  -->
+      <section style="background-color: #ecf8ff" class="courses mt-5 py-5">
+        <div>
+          <h5 class="text-center" style="color: #992fed">
+            <i>LEARN FULL - STACK WEB DEVELOPMENT</i>
+          </h5>
+          <h2 class="text-center text-primary"><i>OUR COURSES</i></h2>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mt-5">
+          <div class="card-1 d-flex flex-colomn align-items-center mx-5 py-1">
+            <h4><img src="assets/Sapling Icon.png" /><i>Beginner</i></h4>
+            <p>
+              <i
+                ><span
+                  style="background-color: #e0f3ff; border-radius: 5px"
+                  class="text-primary p-1"
+                  >100% Job Gaurantee</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  style="background-color: #e0f3ff; border-radius: 5px"
+                  class="text-primary p-1"
+                  >Lifetime Access</span
+                ></i
+              >
+            </p>
+            <p class="text-secondary">
+              For you to start their coding journey from start
+            </p>
+            <div id="Beginner">
+              <div class="d-flex">
+                <p><img src="assets/bag.png" />&nbsp;&nbsp;Placement Status</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>in 4 months</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p>
+                  <img
+                    src="assets/mdi_graduation-cap-outline.png"
+                  />&nbsp;&nbsp;Eligibility
+                </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>
+                  Final year students or<br />
+                  Graduates, All degree
+                </p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p><img src="assets/time.png" />&nbsp;&nbsp;Duration</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>12 Months</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p><img src="assets/daily.png" />&nbsp;&nbsp;Daily Effort</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>5 - 7 Hrs</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p>
+                  <img
+                    src="assets/material-symbols_skip-next-outline.png"
+                  />&nbsp;&nbsp;Next batch On
+                </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>27th Dec 2022</p>
+              </div>
+            </div>
+            <div id="beg-btn">
+              <button class="btn-1 text-primary">
+                <img src="assets/brochure.png" />Broucher
+              </button>
+              <button class="btn-2 text-white">Learn More ></button>
+            </div>
+          </div>
+          <div class="card-1 mx-5 py-1">
+            <h4><img src="assets/inter.png" /><i>Intermidiate</i></h4>
+            <p>
+              <i
+                ><span
+                  style="background-color: #ffeed8; border-radius: 5px"
+                  class="text-danger p-1"
+                  >Pay After Placement</span
+                >&nbsp;&nbsp;&nbsp;&nbsp;<span
+                  style="background-color: #ffeed8; border-radius: 5px"
+                  class="text-danger p-1"
+                  >Lifetime Access</span
+                ></i
+              >
+            </p>
+            <p class="text-secondary">
+              For learners with good reasoning & logical reasoning
+            </p>
+            <div id="Intermidiate">
+              <div class="d-flex">
+                <p><img src="assets/bag.png" />&nbsp;&nbsp;Placement Status</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>in 4 months</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p>
+                  <img
+                    src="assets/mdi_graduation-cap-outline.png"
+                  />&nbsp;&nbsp;Eligibility
+                </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>2019-2023 Batch studennts<br />, All degree</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p><img src="assets/time.png" />&nbsp;&nbsp;Duration</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>12 Months</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p><img src="assets/daily.png" />&nbsp;&nbsp;Daily Effort</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>5 - 7 Hrs</p>
+              </div>
+              <hr />
+              <div class="d-flex">
+                <p>
+                  <img
+                    src="assets/material-symbols_skip-next-outline.png"
+                  />&nbsp;&nbsp;Next batch On
+                </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>27th Dec 2022</p>
+              </div>
+            </div>
+            <div id="int-btn">
+              <button class="btn-1 text-primary">
+                <img src="assets/brochure.png" />Broucher
+              </button>
+              <button class="btn-2 text-white">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- hiring-section  -->
+      <section class="hiring-section">
+        <div class="hiring-heading">
+          <p class="hh-p1">Over 300+ hiring partners</p>
+          <h1>Top Startups & MNC’s Hire</h1>
+          <span>Software Engineer</span>
+          <p class="hh-p2">From AccioJob upto 41 Lakhs</p>
+        </div>
+        <div class="hiring-img">
+          <div><img src="assets/image 23.png" /></div>
+          <div><img src="assets/image 38.png" /></div>
+          <div><img src="assets/image 23 (1).png" /></div>
+          <div><img src="assets/image 53.png" /></div>
+          <div><img src="assets/image 23 (2).png" /></div>
+          <div><img src="assets/image 53 (1).png" /></div>
+          <div><img src="assets/image 23 (3).png" /></div>
+          <div><img src="assets/image 38 (1).png" /></div>
+          <div><img src="assets/image 53 (2).png" /></div>
+          <div><img src="assets/image 38 (2).png" /></div>
+          <div><img src="assets/image 53 (3).png" /></div>
+          <div><img src="assets/image 23 (4).png" /></div>
+          <div><img src="assets/image 23 (5).png" /></div>
+          <div><img src="assets/image 38 (3).png" /></div>
+          <div><img src="assets/image 23 (6).png" /></div>
+          <div><img src="assets/image 55.png" /></div>
+          <div><img src="assets/image 54.png" /></div>
+          <div><img src="assets/image 57.png" /></div>
+        </div>
+        <div class="report">
+          <span>Placement Report > </span>
+        </div>
+      </section>
+      <!-- success-heading  -->
+      <section class="success">
+        <div class="succ-head">
+          <div class="love">AccioJob Wall Of Love</div>
+          <div class="alumni">Our Alumni Say it Best</div>
+        </div>
+      </section>
+      <!-- success-card  -->
+      <section class="card-section">
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42.png" />
+            <div>
+              <h5 class="name-of-players">Virat Kohli</h5>
+              <p class="board-of-Cricket">SDE-II at Indian Cricket Board</p>
+            </div>
+            <img src="assets/LinkedIN.png" />
+          </div>
+          <div>
+            <p class="discription">
+              My Life changed when I became a part of the AccioJob family.
+              Before that I was not able to score any centuries. As soon as I
+              joined Accio, I hit a century against Afganistan.
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42 (1).png" />
+            <div>
+              <h5 class="name-of-players">Ishan Kishan</h5>
+              <p class="board-of-Cricket">Intern at Indian Cricket Board</p>
+            </div>
+            <img src="assets/Quora.png" />
+          </div>
+          <div>
+            <p class="discription">
+              My Life changed when I became a part of the AccioJob family.
+              Before that I was not able to score any centuries. As soon as I
+              joined Accio, I hit a century against Afg anistan. My Life changed
+              when I became a part of the AccioJob family. Before that I was not
+              able to score any centuries. As soon as I joined Accio, I hit a
+              century against Afganistan.
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42 (2).png" />
+            <div>
+              <h5 class="name-of-players">Virender Sehwag</h5>
+              <p class="board-of-Cricket">SDE-IV at Indian Cricket Board</p>
+            </div>
+            <img src="assets/LinkedIN.png" />
+          </div>
+          <div>
+            <p class="discription">
+              My Life changed when I became a part of the AccioJob family.
+              Before that I was not able to score any centuries. As soon as I
+              joined Accio, I hit a century against Afganistan. Then I got
+              offers from RCB for IPL as captain again. Bas ab India World Cup
+              Jeet jaye.
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42 (3).png" />
+            <div>
+              <h5 class="name-of-players">Rohit Sharma</h5>
+              <p class="board-of-Cricket">SDE-II at Indian Cricket Board</p>
+            </div>
+            <img src="assets/LinkedIN.png" />
+          </div>
+          <div>
+            <p class="discription">
+              My Life changed when I became a part of the AccioJob family.
+              Before that I was not able to score any centuries. As soon as I
+              joined Accio, I hit a century against Afganistan. Then I got
+              offers from RCB for IPL as captain again. Bas ab India World Cup
+              Jeet jaye.
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42 (4).png" />
+            <div>
+              <h5 class="name-of-players">Sarfaraz Ahmed</h5>
+              <p class="board-of-Cricket">WK at Pak. Cricket Board</p>
+            </div>
+            <img src="assets/LinkedIN.png" />
+          </div>
+          <div>
+            <p class="discription">
+              Inshallah Boys Played well. My answer also same Inshallah Boys!
+              Well done!
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+        <div class="card-div">
+          <div class="card-heading">
+            <img src="assets/Ellipse 42 (5).png" />
+            <div>
+              <h5 class="name-of-players">Sachin Tendulkar</h5>
+              <p class="board-of-Cricket">God at Indian Cricket Board</p>
+            </div>
+            <img src="assets/LinkedIN.png" />
+          </div>
+          <div>
+            <p class="discription">
+              My Life changed when I became a part of the AccioJob family.
+              Before that I was not able to score any centuries. As soon as I
+              joined Accio, I hit a century against Afganistan.
+            </p>
+            <p class="date">Jun 14, 2022</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
